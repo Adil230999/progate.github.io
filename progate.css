@@ -1,0 +1,151 @@
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(112, 94, 94, 0.6);
+    color: aliceblue;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.header-right {
+    float: right;
+    padding: 0;
+    margin-right: 25px;
+    transition: all 0.5s;
+}
+.header-right:hover {
+    background-color:  rgba(255, 255, 255, 0.3);
+}
+.header-right a {
+    font-size: 17px;
+    padding: 22px 25px;
+    display: block;
+    box-sizing: border-box;
+}
+.header-left {
+    float: left;
+    padding: 20px 25px;
+    font-size: 25px;
+}
+.navbar a:hover {
+    background-color:  rgba(255, 255, 255, 0.3);
+}
+.container {
+    width: 100%;
+    background-image: url(img.jpg);
+    background-size: cover;
+    height: 600px;
+    padding: 180px 0 100px 0;
+}
+.top-wrapper {
+    margin: 0 auto;
+    width: 1170px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.top-wrapper h1 {
+    filter: brightness(100%);
+    font-size: 45px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+}
+.top-wrapper p {
+    font-size: 30px;
+}
+.demi {
+    padding-bottom: 50px;
+}
+.top-wrapper a {
+    padding: 25px;
+    background-color: rgba(127, 255, 0, 0.5);
+    border-radius: 5px;
+}
+.top-wrapper a:hover {
+    background-color: rgba(127, 255, 0, 0.8);
+    transition: 1s;
+}
+
+.navbar a {
+    margin-right: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 20px 20px;
+    transition: all 0.5s;
+}
+.navbar {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: block;
+}
+.main {
+    background-color: #f7f7f7;
+    height: 600px;
+    text-align: center;
+    padding-top: 30px;
+}
+.main h1 {
+    font-size: 45;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #808080;
+}
+.list {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.list img {
+    width: 350px;
+}
+.list p {
+    padding-left: 30px;
+    font-size: 40px;
+}
+.contents {
+    height: 450px;
+    background-color: #f7f7f7;
+    color: black;
+    border-top: 3px solid #808080;
+}
+.left-content {
+    width: 54%;
+    float: left;
+    padding-left: 15px;
+}
+.left-content p {
+    font-size: 25px;
+    text-align: justify;
+}
+.sama {
+    padding-top: 15px;
+}
+.left-content h2 {
+    font-size: 40;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.right-content img {
+    width: 45%;
+    float: right;
+}
+footer {
+    background-color: darkred;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+footer p {
+    padding-top: 8px;
+}
